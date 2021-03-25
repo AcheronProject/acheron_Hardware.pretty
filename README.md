@@ -15,7 +15,7 @@ Acheron Hardware is the AcheronProject's KiCad footprint library for overal inte
 ## Description and credits
 
 - ``Bluepill_STM32F103``: Blue-Pill style featherboard (STM32F103-based). It was developed independently;
-- ``Mini_F4X1_STM32``: "black-pill" style featherboard (STM32F4X1-based), specifically the ones (developed by WeAct)[https://github.com/WeActTC/MiniSTM32F4x1]. They were developed using the openly available land footprint in the hardware documentation section of the repository;
+- ``Mini_F4X1_STM32``: "black-pill" style featherboard (STM32F4X1-based), specifically the ones [developed by WeAct](https://github.com/WeActTC/MiniSTM32F4x1). They were developed using the openly available land footprint in the hardware documentation section of the repository;
 - ``MouseBite_IPC7351``: mouse bite marks as defined in IPC standard 7351 for PCB reproduction and pannelization.
 
 ## Copyright notice
