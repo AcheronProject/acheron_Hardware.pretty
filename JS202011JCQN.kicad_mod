@@ -1,0 +1,214 @@
+(footprint "JS202011JCQN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "${REF}"
+		(at 0.086 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58bcec4c-e852-44cb-a3cf-48e5ba215d0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7291ffca-62e5-40cd-96c2-72e7a1ab406a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "acheron_Hardware:JS202011JCQN"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "77728843-e21e-4167-8776-bd891ccb7f36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ed0a8f83-722d-439e-a18a-f018e9594ead")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "35a73f88-e359-4b38-8f3e-e795ed68cfa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Manufacturer" "C&K"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d22c0f4-787f-4a62-b307-eb9310d0db9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "JS202011JCQN"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1ef9eb5-cab4-4a12-bd49-83a70fda3047")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aede000-0ecf-4073-bfda-b3ff50d3ef4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specification" "Brick nogging DPDT slide switch"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a54a8aa-3433-493f-a2f1-257c2966d42f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Vendor Part Number" "LCSC C221665"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1960fed8-8b0f-4ef8-aa4e-5dc0daa55110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3.5 -2.5) (xy -3.5 2.5) (xy 3.5 2.5) (xy 3.5 -2.5)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "630e69b3-4227-4f1f-ba3a-75c7644d12be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccf6e3f4-154c-427d-8df1-6b655f86c74f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 -1.2 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 0)
+		(uuid "fa15dd55-4424-4940-88df-b9d21a013bab")
+	)
+	(pad "2" smd rect
+		(at 0 -1.2 90)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "82c2405f-fa5c-4956-a8e8-775e14f7715f")
+	)
+	(pad "3" smd rect
+		(at 2.5 -1.2 90)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "c8b7e86a-bd7b-4118-8592-09c0ea2893c9")
+	)
+	(pad "5" smd rect
+		(at -2.5 1.2 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "7e314aa5-8740-4abe-9a2e-5188246da53d")
+	)
+	(pad "6" smd rect
+		(at 0 1.2 90)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "14aa3608-3b15-48f0-b343-e465ec06e086")
+	)
+	(pad "7" smd rect
+		(at 2.5 1.2 90)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "88220119-d6f3-4682-aae5-2033921b2cb2")
+	)
+	(model "${ACHERON_3D}/JS202011JCQN.step"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
