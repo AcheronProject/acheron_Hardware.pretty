@@ -1,0 +1,340 @@
+(footprint "ALPS_SKRTLAE010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SKRTLAE010")
+	(tags "Switch")
+	(property "Reference" "SW2"
+		(at 0 -3.25 180)
+		(layer "F.SilkS")
+		(uuid "f1dbeed1-dcb4-4f4b-a225-995fb32b859e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "SKRTLAE010"
+		(at 0 -0.225 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cef91b3b-c7eb-4be8-8988-56eac06b8e0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c019003d-361e-4d64-bd76-b59cc7fa5436")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0afed3d4-02c9-4cbd-a9a5-4cf9cd328fde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd50f27a-9ed7-4916-bdf0-fd4a3c0cc74c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb3ad6e1-61c8-427f-bf2d-d13731caf87f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcfb4310-3830-4550-91ca-f6584ef386ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Vendor Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "661f4cf8-8cab-4660-8713-f5b54eb8dcd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specification" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8f4ff39-b7c1-48b7-890b-f794a5e9be11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.025 1.7)
+		(end -1.025 1.490001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaafbb87-e157-4695-8301-35df2c7d13f7")
+	)
+	(fp_line
+		(start -0.825 0.86)
+		(end 0.775 0.86)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25255418-bfa1-46c8-9b5f-eb305b60569f")
+	)
+	(fp_line
+		(start 0.975 1.49)
+		(end 0.975001 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44576d99-619c-4f19-9f34-5c13668ffb01")
+	)
+	(fp_line
+		(start 0.975001 1.7)
+		(end -1.025 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7306d9f4-2c7c-49af-8210-218769805992")
+	)
+	(fp_line
+		(start -3.575 -3.15)
+		(end 3.575 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b4977c1-e653-4117-a6fd-bd856e3592d2")
+	)
+	(fp_line
+		(start -3.575 2.7)
+		(end -3.575 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "714638fd-991d-4029-ba65-edbf69bf206f")
+	)
+	(fp_line
+		(start 3.575 -3.15)
+		(end 3.575 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23a872d5-cabc-4b26-bb35-4618ceeb0943")
+	)
+	(fp_line
+		(start 3.575 2.7)
+		(end -3.575 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8c1aeb3-039b-4c2b-8ab9-2346c496a3c3")
+	)
+	(fp_line
+		(start -2.25 -1.7)
+		(end 2.199999 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e28da974-89a7-49a8-ac55-e6fc41c6774d")
+	)
+	(fp_line
+		(start -2.25 0.86)
+		(end -2.25 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8eedb7af-495a-4f44-abca-40d7d5f117fa")
+	)
+	(fp_line
+		(start -1.025 1.7)
+		(end -1.025 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9749c03-070e-4b5e-9fa0-8756c033fb16")
+	)
+	(fp_line
+		(start 0.975 0.86)
+		(end 0.975001 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9c46e69-1f87-473a-928f-872e5f157669")
+	)
+	(fp_line
+		(start 0.975001 1.7)
+		(end -1.025 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ff77710-e7fc-4220-b337-1a6b62589952")
+	)
+	(fp_line
+		(start 2.199999 -1.7)
+		(end 2.2 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a96bb62c-fb8d-4578-8239-875cf2c8a199")
+	)
+	(fp_line
+		(start 2.2 0.86)
+		(end -2.25 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "252a8382-4973-46c8-b259-ed1ed36a0af1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.225 180)
+		(layer "F.Fab")
+		(uuid "f9548001-2d6f-450d-88f2-c9a7399f0432")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.125 -0.349999)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f61f6b60-040e-4734-ac56-d8cf3c86007b")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.125 -0.349999)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e2ccb850-d387-4414-8871-e3926eca6d0e")
+	)
+	(pad "1" smd rect
+		(at -1.225 -1.25)
+		(size 0.75 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a096e39b-b9a9-4f36-abef-50daa243c289")
+	)
+	(pad "2" smd rect
+		(at 0 -1.249999)
+		(size 0.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b5f134e-c60a-4f44-83f1-894befe26b22")
+	)
+	(pad "3" smd rect
+		(at 1.225 -1.25)
+		(size 0.75 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c6c2569-1e4d-42f0-a25c-315ab38359ca")
+	)
+	(pad "MP" smd rect
+		(at -1.85 0.7 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "9af22530-0d0b-469b-b97b-063e70588d19")
+	)
+	(pad "MP" smd rect
+		(at 1.85 0.7 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "42d67645-c4fd-43c7-b219-1ead12969f8a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/M256.pretty/SKRTLAE010.stp"
+		(offset
+			(xyz 0 -0.65 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
